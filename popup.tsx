@@ -3,6 +3,7 @@ import browser from "webextension-polyfill"
 
 const Bookmarks = () => {
   const [bookmarks, setBookmarks] = useState([])
+  console.log(bookmarks)
 
   useEffect(() => {
     // Fetch existing bookmarks
